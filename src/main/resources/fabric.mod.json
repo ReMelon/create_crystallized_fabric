@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "crystallized",
+  "version": "${version}",
+  "name": "Create: Crystallized",
+  "description": "Create Mod Addon focused on adding more ways to automate various resources through the addition of crystal growing.",
+  "authors": [
+    "ReMelon"
+  ],
+  "contact": {
+    "sources": "https://github.com/ReMelon/create_crystallized"
+  },
+  "license": "CC0",
+  "icon": "assets/crystallized/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.remelon.crystallized.Crystallized"
+    ]
+  },
+  "mixins": [
+    "crystallized.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": "${create_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
