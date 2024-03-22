@@ -18,6 +18,7 @@ public class GroupRegister {
 					.icon(() -> new ItemStack(ItemRegister.GLASS_SLIDE)).entries((displayContext, entries) -> {
 						entries.add(ItemRegister.MECH_SLIDE);
 						entries.add(ItemRegister.GLASS_SLIDE);
+						entries.add(Crystallized.CRYSTAL_BUCKET);
 
 
 					}).build());
