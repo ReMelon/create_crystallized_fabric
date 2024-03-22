@@ -17,6 +17,8 @@ public class GroupRegister {
 					.icon(() -> new ItemStack(ItemRegister.GLASS_SLIDE)).displayItems((displayContext, entries) -> {
 						entries.accept(ItemRegister.GLASS_SLIDE);
 						entries.accept(ItemRegister.MECH_SLIDE);
+						entries.accept(ItemRegister.NETHER_BASE);
+						entries.accept(ItemRegister.MECH_NETHER_BASE);
 					})
 					.build());
 
