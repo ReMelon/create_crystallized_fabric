@@ -5,7 +5,6 @@ import com.simibubi.create.Create;
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
 import net.fabricmc.api.ModInitializer;
 
-import net.minecraft.resources.ResourceLocation;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,6 +13,7 @@ public class Crystallized implements ModInitializer {
 	public static final String ID = "crystallized";
 	public static final String NAME = "Create: Crystallized";
 	public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
+
 
 	@Override
 	public void onInitialize() {
@@ -25,9 +25,6 @@ public class Crystallized implements ModInitializer {
 
 		GroupRegister.registerItemGroups();
 		ItemRegister.registerModItems();
-	}
 
-	public static ResourceLocation id(String path) {
-		return new ResourceLocation(ID, path);
 	}
 }
