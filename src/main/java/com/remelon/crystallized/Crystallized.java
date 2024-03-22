@@ -22,6 +22,9 @@ public class Crystallized implements ModInitializer {
 				() -> () -> "{} is accessing Porting Lib from the client!",
 				() -> () -> "{} is accessing Porting Lib from the server!"
 		), NAME);
+
+		GroupRegister.registerItemGroups();
+		ItemRegister.registerModItems();
 	}
 
 	public static ResourceLocation id(String path) {
