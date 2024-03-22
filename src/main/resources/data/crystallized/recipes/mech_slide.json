@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "crystallized:glass_slide"
+    },
+    {
+      "item": "create:precision_mechanism"
+    }
+  ],
+  "results": [
+    {
+      "item": "crystallized:mech_slide"
+    }
+  ],
+  "keepHeldItem": false
+}

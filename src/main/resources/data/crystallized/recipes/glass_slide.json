@@ -1,0 +1,14 @@
+
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    }
+  ],
+  "results": [
+    {
+      "item": "crystallized:glass_slide"
+    }
+  ]
+}
