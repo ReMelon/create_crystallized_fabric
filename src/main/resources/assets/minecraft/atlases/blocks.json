@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "crystallized:fluid/liquid_crystal_flow"
+    },
+    {
+      "type": "single",
+      "resource": "crystallized:fluid/liquid_crystal_flow"
+    }
+  ]
+}

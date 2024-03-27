@@ -31,6 +31,7 @@ repositories {
 	maven { url = "https://maven.jamieswhiteshirt.com/libs-release" } // Reach Entity Attributes
 	maven { url = "https://jitpack.io/" } // Mixin Extras, Fabric ASM
 	maven { url = "https://maven.tterrag.com/" } // Flywheel
+	maven { url = "https://mvn.devos.one/snapshots/" } // Registrate
 }
 
 configurations.configureEach {
@@ -51,6 +52,8 @@ dependencies {
 
 	// Create - dependencies are added transitively
 	modImplementation("com.simibubi.create:create-fabric-${minecraft_version}:${create_version}")
+
+	modImplementation(include("com.tterrag.registrate_fabric:Registrate:${project.registrate_version}"))
 
 	// Development QOL
 	modLocalRuntime("maven.modrinth:lazydfu:${lazydfu_version}")
