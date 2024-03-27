@@ -8,9 +8,11 @@
     "ReMelon"
   ],
   "contact": {
+    "homepage": "https://github.com/ReMelon/create_crystallized",
+    "issues": "https://github.com/ReMelon/create_crystallized/issues",
     "sources": "https://github.com/ReMelon/create_crystallized"
   },
-  "license": "CC0",
+  "license": "MIT",
   "icon": "assets/crystallized/icon.png",
   "environment": "*",
   "entrypoints": {
