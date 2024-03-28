@@ -52,19 +52,11 @@ public class Crystallized implements ModInitializer {
 				() -> () -> "{} is accessing Porting Lib from the server!"
 		), NAME);
 
-		/*
-		STILL_CRYSTAL = Registry.register(Registries.FLUID, new Identifier("crystallized", "liquid_crystal"), new LiquidCrystal.Still());
-		FLOWING_CRYSTAL = Registry.register(Registries.FLUID, new Identifier("crystallized", "flowing_crystal"), new LiquidCrystal.Flowing());
-		CRYSTAL_BUCKET = Registry.register(Registries.ITEM, new Identifier("crystallized", "crystal_bucket"),
-				new BucketItem(STILL_CRYSTAL, new Item.Settings().recipeRemainder(Items.BUCKET).maxCount(1)));
-		CRYSTAL_BLOCK = Registry.register(Registries.BLOCK, new Identifier("crystallized", "liquid_crystal_block"),
-				new FluidBlock(STILL_CRYSTAL, FabricBlockSettings.copyOf(Blocks.WATER)){ });
-		*/
 
-		CREGISTRATE.register();
 		GroupRegister.registerItemGroups();
 		ItemRegister.registerModItems();
 		FluidRegistrate.register();
+		CREGISTRATE.register();
 
 
 
