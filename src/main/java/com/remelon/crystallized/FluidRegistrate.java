@@ -62,7 +62,7 @@ public class FluidRegistrate {
 
 
 	public static void register() {
-		Crystallized.LOGGER.info("Registering Crystal Fluid");
+		Crystallized.LOGGER.info("FluidRegistrate Loaded");
 	}
 
 }

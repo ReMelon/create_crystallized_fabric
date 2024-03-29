@@ -3,6 +3,10 @@ package com.remelon.crystallized;
 import com.simibubi.create.Create;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.simibubi.create.foundation.item.ItemDescription;
+import com.simibubi.create.foundation.item.KineticStats;
+import com.simibubi.create.foundation.item.TooltipHelper;
+import com.simibubi.create.foundation.item.TooltipModifier;
 import com.tterrag.registrate.Registrate;
 
 import com.tterrag.registrate.builders.FluidBuilder;
@@ -31,6 +35,7 @@ import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import static com.remelon.crystallized.ItemRegistrate.NETHER_SLIDE;
 
 
 public class Crystallized implements ModInitializer {
@@ -44,6 +49,13 @@ public class Crystallized implements ModInitializer {
 		return new Identifier(ID, name);
 	}
 
+	static {
+		CREGISTRATE.setTooltipModifierFactory(item -> new ItemDescription.Modifier(item, TooltipHelper.Palette.STANDARD_CREATE)
+				.andThen(TooltipModifier.mapNull(KineticStats.create(item))));
+
+
+	}
+
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Create addon mod [{}] is loading alongside Create [{}]!", NAME, Create.VERSION);
@@ -54,8 +66,9 @@ public class Crystallized implements ModInitializer {
 
 
 		GroupRegister.registerItemGroups();
-		ItemRegister.registerModItems();
+		ItemRegistrate.registerModItems();
 		FluidRegistrate.register();
+
 		CREGISTRATE.register();
 
 

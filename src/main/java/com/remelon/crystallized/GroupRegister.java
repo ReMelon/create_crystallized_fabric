@@ -1,15 +1,8 @@
 package com.remelon.crystallized;
 
-import com.simibubi.create.AllBlocks;
-import com.simibubi.create.AllCreativeModeTabs;
-import com.simibubi.create.Create;
-import com.simibubi.create.foundation.utility.Components;
-
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -24,10 +17,8 @@ public class GroupRegister {
 	public static final TabInfo CRYSTAL_GROUP = register("Crystallized",
 			() -> FabricItemGroup.builder()
 					.displayName(Text.translatable("crystallized.itemtab"))
-					.icon(() -> new ItemStack(ItemRegister.GLASS_SLIDE))
+					.icon(() -> new ItemStack(ItemRegistrate.GLASS_SLIDE))
 					.entries((displayContext, entries) -> {
-						entries.add(ItemRegister.MECH_SLIDE);
-						entries.add(ItemRegister.GLASS_SLIDE);
 					})
 					.build());
 
@@ -46,7 +37,7 @@ public class GroupRegister {
 	}
 
 	public static void registerItemGroups() {
-		Crystallized.LOGGER.info("Registering Item Groups for " + Crystallized.ID);
+		Crystallized.LOGGER.info("GroupRegister Loaded");
 	}
 
 
