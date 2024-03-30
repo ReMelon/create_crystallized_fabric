@@ -35,8 +35,6 @@ import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static com.remelon.crystallized.ItemRegistrate.NETHER_SLIDE;
-
 
 public class Crystallized implements ModInitializer {
 	public static final String ID = "crystallized";

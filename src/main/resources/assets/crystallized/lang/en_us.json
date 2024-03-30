@@ -1,9 +1,12 @@
 {
   "item.crystallized.glass_slide": "Glass Slide",
-  "item.crystallized.mech_slide": "Mechanical Slide",
-  "item.crystallized.nether_slide": "Glass Slide",
-  "item.crystallized.mech_nether_slide": "Precision Slide",
 
+  "item.crystallized.strong_slide": "Reinforced Slide",
+  "item.crystallized.strong_nether_slide": "Reinforced Slide",
+  "item.crystallized.infinite.tooltip": "Nether Crystal Base",
+
+
+  "item.crystallized.nether_slide": "Glass Slide",
   "item.crystallized.chipped_nether_slide": "Chipped Glass Slide",
   "item.crystallized.damaged_nether_slide": "Damaged Glass Slide",
 
@@ -15,9 +18,9 @@
   "item.crystallized.chipped.tooltip2": "2 uses remaining",
   "item.crystallized.damaged.tooltip2": "1 uses remaining",
 
-
-  "item.crystallized.nether_base": "Nether Crystal Base",
   "crystallized.itemtab": "Create: Crystallized",
+
   "item.crystallized.liquid_crystal_bucket": "Bucket of Liquid Crystal",
+  "block.crystallized.liquid_crystal" : "Liquid Crystal",
   "fluid.crystallized.crystal" : "Liquid Crystal"
 }

@@ -1,24 +1,12 @@
 package com.remelon.crystallized;
 
-import com.remelon.crystallized.itemTypes.chipped;
-import com.remelon.crystallized.itemTypes.damaged;
-import com.remelon.crystallized.itemTypes.perfect;
-import com.simibubi.create.foundation.item.ItemDescription;
-import com.tterrag.registrate.providers.ProviderType;
+import com.remelon.crystallized.itemTypes.nether.chipped;
+import com.remelon.crystallized.itemTypes.nether.damaged;
+import com.remelon.crystallized.itemTypes.nether.infinite;
+import com.remelon.crystallized.itemTypes.nether.perfect;
 import com.tterrag.registrate.util.entry.ItemEntry;
 
-import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.text.MutableText;
-import net.minecraft.text.Text;
-import net.minecraft.world.World;
-
-import org.jetbrains.annotations.Nullable;
-
-import java.util.List;
 
 import static com.remelon.crystallized.Crystallized.CREGISTRATE;
 
@@ -29,13 +17,13 @@ public class ItemRegistrate {
 					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
-	public static final ItemEntry<Item> MECH_SLIDE =
-			CREGISTRATE.item("mech_slide", Item::new)
+	public static final ItemEntry<Item> STRONG_SLIDE =
+			CREGISTRATE.item("strong_slide", Item::new)
 					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
-	public static final ItemEntry<Item> NETHER_MECH_SLIDE =
-			CREGISTRATE.item("nether_mech_slide", Item::new)
+	public static final ItemEntry<infinite> NETHER_STRONG_SLIDE =
+			CREGISTRATE.item("strong_nether_slide", infinite::new)
 					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
@@ -55,12 +43,6 @@ public class ItemRegistrate {
 					.register();
 
 
-
-	public static final ItemEntry<Item> MECH_NETHER_SLIDE =
-			CREGISTRATE.item("mech_nether_slide", Item::new)
-
-					.tab(GroupRegister.CRYSTAL_GROUP.key())
-					.register();
 
 	public static void registerModItems() {
 		Crystallized.LOGGER.info("ItemRegister Loaded");

@@ -2,7 +2,7 @@
   "sources": [
     {
       "type": "single",
-      "resource": "crystallized:fluid/liquid_crystal_flow"
+      "resource": "crystallized:fluid/liquid_crystal_still"
     },
     {
       "type": "single",

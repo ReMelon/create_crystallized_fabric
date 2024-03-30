@@ -1,4 +1,4 @@
-package com.remelon.crystallized.itemTypes;
+package com.remelon.crystallized.itemTypes.nether;
 
 import java.util.List;
 

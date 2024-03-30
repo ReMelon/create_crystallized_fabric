@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "crystallized:item/mech_slide"
+    "layer0": "crystallized:item/damaged_nether_base"
   }
 }
