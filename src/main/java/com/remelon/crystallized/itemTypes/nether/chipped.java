@@ -9,12 +9,24 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
+import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 
 public class chipped extends Item {
 
 	public chipped(Settings settings) {
-		super(settings);
+		super(settings.maxDamage(99));
+	}
+
+
+	@Override
+	public boolean isItemBarVisible(ItemStack stack) {
+		return true;
+	}
+
+	@Override
+	public int getItemBarStep(ItemStack stack) {
+		return Math.round(13.0F * MathHelper.clamp(((float) 1.75) / ((float) 3), 0, 1));
 	}
 
 	@Override
@@ -23,4 +35,7 @@ public class chipped extends Item {
 		pTooltipComponents.add(Text.translatable("item.crystallized.chipped.tooltip").formatted(Formatting.GRAY));
 		pTooltipComponents.add(Text.translatable("item.crystallized.chipped.tooltip2").formatted(Formatting.DARK_GRAY));
 	}
+
+
+
 }

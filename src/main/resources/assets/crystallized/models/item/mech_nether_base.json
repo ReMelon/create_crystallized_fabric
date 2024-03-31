@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "crystallized:item/mech_nether_base"
-  }
-}

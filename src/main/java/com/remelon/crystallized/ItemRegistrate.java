@@ -7,6 +7,7 @@ import com.remelon.crystallized.itemTypes.nether.perfect;
 import com.tterrag.registrate.util.entry.ItemEntry;
 
 import net.minecraft.item.Item;
+import net.minecraft.registry.RegistryKeys;
 
 import static com.remelon.crystallized.Crystallized.CREGISTRATE;
 
@@ -35,6 +36,7 @@ public class ItemRegistrate {
 	public static final ItemEntry<chipped> CHIPPED_NETHER_SLIDE =
 			CREGISTRATE.item("chipped_nether_slide", chipped::new)
 					.tab(GroupRegister.CRYSTAL_GROUP.key())
+					.properties(p -> p.maxDamage(10))
 					.register();
 
 	public static final ItemEntry<damaged> DAMAGED_NETHER_SLIDE =

@@ -1,14 +1,26 @@
 {
+  "crystallized.itemtab": "Create: Crystallized",
+
+
+  "item.crystallized.liquid_crystal_bucket": "Bucket of Liquid Crystal",
+  "block.crystallized.liquid_crystal" : "Liquid Crystal",
+  "fluid.crystallized.crystal" : "Liquid Crystal",
+
+
   "item.crystallized.glass_slide": "Glass Slide",
-
   "item.crystallized.strong_slide": "Reinforced Slide",
-  "item.crystallized.strong_nether_slide": "Reinforced Slide",
-  "item.crystallized.infinite.tooltip": "Nether Crystal Base",
-
 
   "item.crystallized.nether_slide": "Glass Slide",
   "item.crystallized.chipped_nether_slide": "Chipped Glass Slide",
   "item.crystallized.damaged_nether_slide": "Damaged Glass Slide",
+
+  "item.crystallized.strong_nether_slide": "Reinforced Slide",
+
+
+
+  "__comment": "<---------------------TOOLTIPS---------------------------------->",
+
+  "item.crystallized.infinite.tooltip": "Nether Crystal Base",
 
   "item.crystallized.perfect.tooltip": "Nether Crystal Base",
   "item.crystallized.chipped.tooltip": "Nether Crystal Base",
@@ -16,11 +28,5 @@
 
   "item.crystallized.perfect.tooltip2": "3 uses remaining",
   "item.crystallized.chipped.tooltip2": "2 uses remaining",
-  "item.crystallized.damaged.tooltip2": "1 uses remaining",
-
-  "crystallized.itemtab": "Create: Crystallized",
-
-  "item.crystallized.liquid_crystal_bucket": "Bucket of Liquid Crystal",
-  "block.crystallized.liquid_crystal" : "Liquid Crystal",
-  "fluid.crystallized.crystal" : "Liquid Crystal"
+  "item.crystallized.damaged.tooltip2": "1 uses remaining"
 }
