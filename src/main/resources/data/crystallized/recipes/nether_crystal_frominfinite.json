@@ -1,0 +1,16 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "crystallized:strong_nether_filled"
+    }
+  ],
+  "results": [
+    {
+      "item": "crystallized:nether_crystal"
+    },
+    {
+      "item": "crystallized:strong_nether_slide"
+    }
+  ]
+}

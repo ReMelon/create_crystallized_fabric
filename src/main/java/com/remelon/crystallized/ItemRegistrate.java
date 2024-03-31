@@ -36,7 +36,6 @@ public class ItemRegistrate {
 	public static final ItemEntry<chipped> CHIPPED_NETHER_SLIDE =
 			CREGISTRATE.item("chipped_nether_slide", chipped::new)
 					.tab(GroupRegister.CRYSTAL_GROUP.key())
-					.properties(p -> p.maxDamage(10))
 					.register();
 
 	public static final ItemEntry<damaged> DAMAGED_NETHER_SLIDE =
@@ -44,6 +43,35 @@ public class ItemRegistrate {
 					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
+
+
+
+	public static final ItemEntry<perfect> NETHER_SLIDE_FILLED =
+			CREGISTRATE.item("nether_filled", perfect::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
+					.register();
+
+	public static final ItemEntry<chipped> CHIPPED_NETHER_FILLED =
+			CREGISTRATE.item("chipped_nether_filled", chipped::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
+					.register();
+
+	public static final ItemEntry<damaged> DAMAGED_NETHER_FILLED =
+			CREGISTRATE.item("damaged_nether_filled", damaged::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
+					.register();
+
+	public static final ItemEntry<infinite> NETHER_STRONG_FILLED =
+			CREGISTRATE.item("strong_nether_filled", infinite::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
+					.register();
+
+
+
+	public static final ItemEntry<Item> NETHER_CRYSTAL =
+			CREGISTRATE.item("nether_crystal", Item::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
+					.register();
 
 
 	public static void registerModItems() {

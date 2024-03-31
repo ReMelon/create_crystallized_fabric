@@ -2,15 +2,15 @@
   "type": "create:deploying",
   "ingredients": [
     {
-      "item": "crystallized:glass_slide"
+      "item": "crystallized:strong_slide"
     },
     {
-      "item": "create:sturdy_sheet"
+      "item": "minecraft:nether_wart"
     }
   ],
   "results": [
     {
-      "item": "crystallized:strong_slide"
+      "item": "crystallized:strong_nether_slide"
     }
   ],
   "keepHeldItem": false

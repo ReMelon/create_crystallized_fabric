@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "crystallized:damaged_nether_slide"
+    },
+    {
+      "amount": 4050,
+      "fluid": "crystallized:liquid_crystal",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "crystallized:damaged_nether_filled"
+    }
+  ]
+}

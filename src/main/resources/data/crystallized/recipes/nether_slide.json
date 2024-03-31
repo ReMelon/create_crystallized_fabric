@@ -5,12 +5,12 @@
       "item": "crystallized:glass_slide"
     },
     {
-      "item": "create:sturdy_sheet"
+      "item": "minecraft:nether_wart"
     }
   ],
   "results": [
     {
-      "item": "crystallized:strong_slide"
+      "item": "crystallized:nether_slide"
     }
   ],
   "keepHeldItem": false
