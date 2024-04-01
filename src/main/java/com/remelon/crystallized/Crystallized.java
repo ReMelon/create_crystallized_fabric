@@ -66,7 +66,7 @@ public class Crystallized implements ModInitializer {
 		GroupRegister.registerItemGroups();
 		ItemRegistrate.registerModItems();
 		FluidRegistrate.register();
-
+		ResourcePack.register();
 		CREGISTRATE.register();
 
 

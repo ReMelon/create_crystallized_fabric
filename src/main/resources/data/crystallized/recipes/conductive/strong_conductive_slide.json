@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "crystallized:strong_slide"
+    },
+    {
+      "item": "crystallized:conductive_compound"
+    }
+  ],
+  "results": [
+    {
+      "item": "crystallized:strong_conductive_slide"
+    }
+  ],
+  "keepHeldItem": false
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "crystallized:nether_crystal"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:netherrack",
+      "amount": 3
+    }
+  ]
+}

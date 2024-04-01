@@ -17,7 +17,7 @@ public class GroupRegister {
 	public static final TabInfo CRYSTAL_GROUP = register("Crystallized",
 			() -> FabricItemGroup.builder()
 					.displayName(Text.translatable("crystallized.itemtab"))
-					.icon(() -> new ItemStack(ItemRegistrate.GLASS_SLIDE))
+					.icon(() -> new ItemStack(ItemRegistrate.NETHER_CRYSTAL))
 					.entries((displayContext, entries) -> {
 					})
 					.build());

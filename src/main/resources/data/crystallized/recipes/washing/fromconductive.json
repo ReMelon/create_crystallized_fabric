@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "crystallized:strong_nether_slide"
+    }
+  ],
+  "results": [
+    {
+      "item": "crystallized:strong_slide"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "crystallized:strong_conductive_filled"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:rose_quartz"
+    },
+    {
+      "item": "crystallized:strong_conductive_slide"
+    }
+  ]
+}
