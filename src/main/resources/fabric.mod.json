@@ -3,7 +3,7 @@
   "id": "crystallized",
   "version": "${version}",
   "name": "Create: Crystallized",
-  "description": "Create Mod Addon focused on adding more ways to automate various resources through the addition of crystal growing.",
+  "description": "Create Mod addon that introduces crystal growing to automate various items",
   "authors": [
     "ReMelon"
   ],
@@ -13,7 +13,7 @@
     "sources": "https://github.com/ReMelon/create_crystallized"
   },
   "license": "MIT",
-  "icon": "assets/crystallized/icon.png",
+  "icon": "assets/crystallized/logo.png",
   "environment": "*",
   "entrypoints": {
     "main": [
