@@ -50,8 +50,6 @@ public class Crystallized implements ModInitializer {
 	static {
 		CREGISTRATE.setTooltipModifierFactory(item -> new ItemDescription.Modifier(item, TooltipHelper.Palette.STANDARD_CREATE)
 				.andThen(TooltipModifier.mapNull(KineticStats.create(item))));
-
-
 	}
 
 	@Override

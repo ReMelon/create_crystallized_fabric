@@ -19,8 +19,6 @@ public class ResourcePack {
 		}
 	}
 
-
-
 	public static void register() {
 		Crystallized.LOGGER.info("Registering Crystallized Resource Pack");
 		ResourcePack.addPack();

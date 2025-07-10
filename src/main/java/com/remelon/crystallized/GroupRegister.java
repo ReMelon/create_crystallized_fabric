@@ -22,9 +22,6 @@ public class GroupRegister {
 					})
 					.build());
 
-
-
-
 	private static TabInfo register(String name, Supplier<ItemGroup> supplier) {
 		Identifier id = new Identifier("crystallized", "itemtab");
 		RegistryKey<ItemGroup> key = RegistryKey.of(RegistryKeys.ITEM_GROUP, id);

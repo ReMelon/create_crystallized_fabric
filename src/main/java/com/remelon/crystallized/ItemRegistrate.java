@@ -60,20 +60,26 @@ public class ItemRegistrate {
 					.register();
 
 
+
+
 	public static final ItemEntry<Chipped> CHIPPED_NETHER_SLIDE =
 			CREGISTRATE.item("chipped_nether_slide", Chipped::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
 	public static final ItemEntry<Damaged> DAMAGED_NETHER_SLIDE =
 			CREGISTRATE.item("damaged_nether_slide", Damaged::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
 	public static final ItemEntry<Chipped> CHIPPED_NETHER_FILLED =
 			CREGISTRATE.item("chipped_nether_filled", Chipped::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
 	public static final ItemEntry<Damaged> DAMAGED_NETHER_FILLED =
 			CREGISTRATE.item("damaged_nether_filled", Damaged::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
 
@@ -99,20 +105,26 @@ public class ItemRegistrate {
 					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
+
+
 	public static final ItemEntry<com.remelon.crystallized.itemTypes.conductive.Chipped> CHIPPED_CONDUCTIVE_SLIDE =
 			CREGISTRATE.item("chipped_conductive_slide", com.remelon.crystallized.itemTypes.conductive.Chipped::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
 	public static final ItemEntry<com.remelon.crystallized.itemTypes.conductive.Damaged> DAMAGED_CONDUCTIVE_SLIDE =
 			CREGISTRATE.item("damaged_conductive_slide", com.remelon.crystallized.itemTypes.conductive.Damaged::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
 	public static final ItemEntry<com.remelon.crystallized.itemTypes.conductive.Chipped> CHIPPED_CONDUCTIVE_FILLED =
 			CREGISTRATE.item("chipped_conductive_filled", com.remelon.crystallized.itemTypes.conductive.Chipped::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
 	public static final ItemEntry<com.remelon.crystallized.itemTypes.conductive.Damaged> DAMAGED_CONDUCTIVE_FILLED =
 			CREGISTRATE.item("damaged_conductive_filled", com.remelon.crystallized.itemTypes.conductive.Damaged::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
 
@@ -129,12 +141,17 @@ public class ItemRegistrate {
 					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
+
+
+
 	public static final ItemEntry<com.remelon.crystallized.itemTypes.amethyst.Chipped> CHIPPED_AMETHYST_SLIDE_FILLED =
 			CREGISTRATE.item("chipped_amethyst_filled", com.remelon.crystallized.itemTypes.amethyst.Chipped::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
 	public static final ItemEntry<com.remelon.crystallized.itemTypes.amethyst.Damaged> DAMAGED_AMETHYST_SLIDE_FILLED =
 			CREGISTRATE.item("damaged_amethyst_filled", com.remelon.crystallized.itemTypes.amethyst.Damaged::new)
+					.tab(GroupRegister.CRYSTAL_GROUP.key())
 					.register();
 
 
