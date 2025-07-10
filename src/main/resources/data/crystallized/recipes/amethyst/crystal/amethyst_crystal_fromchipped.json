@@ -1,0 +1,17 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "crystallized:chipped_amethyst_filled"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:amethyst_shard",
+      "count": 3
+    },
+    {
+      "item": "crystallized:damaged_glass_slide"
+    }
+  ]
+}

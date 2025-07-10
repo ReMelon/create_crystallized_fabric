@@ -1,0 +1,17 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "crystallized:strong_amethyst_filled"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:amethyst_shard",
+      "count": 3
+    },
+    {
+      "item": "crystallized:strong_slide"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "crystallized:chipped_glass_slide"
+    },
+    {
+      "item": "minecraft::nether_wart"
+    }
+  ],
+  "results": [
+    {
+      "item": "crystallized:chipped_nether_slide"
+    }
+  ],
+  "keepHeldItem": false
+}

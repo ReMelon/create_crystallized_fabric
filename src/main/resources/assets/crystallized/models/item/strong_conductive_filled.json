@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "crystallized:item/strong_conductive_filled"
+    "layer0": "crystallized:item/strong/strong_conductive_filled"
   }
 }
