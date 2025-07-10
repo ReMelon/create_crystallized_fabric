@@ -1,4 +1,4 @@
-package com.remelon.crystallized;
+package remelon.cat.crystallized;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;

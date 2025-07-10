@@ -1,6 +1,4 @@
-package com.remelon.crystallized;
-
-import com.simibubi.create.foundation.events.CommonEvents;
+package remelon.cat.crystallized;
 
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;

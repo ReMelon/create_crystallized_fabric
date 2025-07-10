@@ -1,4 +1,4 @@
-package com.remelon.crystallized;
+package remelon.cat.crystallized;
 
 import com.simibubi.create.Create;
 
@@ -7,28 +7,10 @@ import com.simibubi.create.foundation.item.ItemDescription;
 import com.simibubi.create.foundation.item.KineticStats;
 import com.simibubi.create.foundation.item.TooltipHelper;
 import com.simibubi.create.foundation.item.TooltipModifier;
-import com.tterrag.registrate.Registrate;
-
-import com.tterrag.registrate.builders.FluidBuilder;
-import com.tterrag.registrate.fabric.SimpleFlowableFluid;
 
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
 import net.fabricmc.api.ModInitializer;
 
-
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.FluidBlock;
-import net.minecraft.fluid.FlowableFluid;
-
-import net.minecraft.item.BucketItem;
-import net.minecraft.item.Item;
-
-import net.minecraft.item.Items;
-import net.minecraft.registry.Registries;
-
-import net.minecraft.registry.Registry;
 
 import net.minecraft.util.Identifier;
 

@@ -1,4 +1,4 @@
-package com.remelon.crystallized.itemTypes.conductive;
+package remelon.cat.crystallized.itemTypes.conductive;
 
 import java.util.List;
 
@@ -11,9 +11,9 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
 
-public class Infinite extends Item {
+public class Perfect extends Item {
 
-	public Infinite(Settings settings) {
+	public Perfect(Settings settings) {
 		super(settings);
 	}
 
@@ -21,5 +21,6 @@ public class Infinite extends Item {
 	public void appendTooltip(ItemStack pStack, @Nullable World pLevel, List<Text> pTooltipComponents, TooltipContext pIsAdvanced) {
 		super.appendTooltip(pStack, pLevel, pTooltipComponents, pIsAdvanced);
 		pTooltipComponents.add(Text.translatable("item.crystallized.conductive.tooltip").formatted(Formatting.GRAY));
+		pTooltipComponents.add(Text.translatable("item.crystallized.perfect.tooltip").formatted(Formatting.DARK_GRAY));
 	}
 }

@@ -1,4 +1,4 @@
-package com.remelon.crystallized.itemTypes.conductive;
+package remelon.cat.crystallized.itemTypes.nether;
 
 import java.util.List;
 
@@ -32,7 +32,7 @@ public class Damaged extends Item {
 	@Override
 	public void appendTooltip(ItemStack pStack, @Nullable World pLevel, List<Text> pTooltipComponents, TooltipContext pIsAdvanced) {
 		super.appendTooltip(pStack, pLevel, pTooltipComponents, pIsAdvanced);
-		pTooltipComponents.add(Text.translatable("item.crystallized.conductive.tooltip").formatted(Formatting.GRAY));
+		pTooltipComponents.add(Text.translatable("item.crystallized.nether.tooltip").formatted(Formatting.GRAY));
 		pTooltipComponents.add(Text.translatable("item.crystallized.damaged.tooltip").formatted(Formatting.DARK_GRAY));
 	}
 }
