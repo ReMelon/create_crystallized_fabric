@@ -1,4 +1,8 @@
-package remelon.cat.crystallized.itemTypes.nether;
+package com.remelon.crystallized.itemTypes.nether;
+
+import java.util.List;
+
+import javax.annotation.Nullable;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
@@ -7,13 +11,9 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
 
-import javax.annotation.Nullable;
+public class Infinite extends Item {
 
-import java.util.List;
-
-public class Perfect extends Item {
-
-	public Perfect(Settings settings) {
+	public Infinite(Settings settings) {
 		super(settings);
 	}
 
@@ -21,6 +21,5 @@ public class Perfect extends Item {
 	public void appendTooltip(ItemStack pStack, @Nullable World pLevel, List<Text> pTooltipComponents, TooltipContext pIsAdvanced) {
 		super.appendTooltip(pStack, pLevel, pTooltipComponents, pIsAdvanced);
 		pTooltipComponents.add(Text.translatable("item.crystallized.nether.tooltip").formatted(Formatting.GRAY));
-		pTooltipComponents.add(Text.translatable("item.crystallized.perfect.tooltip").formatted(Formatting.DARK_GRAY));
 	}
 }

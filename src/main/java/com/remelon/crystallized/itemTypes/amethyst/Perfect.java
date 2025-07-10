@@ -1,4 +1,4 @@
-package remelon.cat.crystallized.itemTypes.amethyst;
+package com.remelon.crystallized.itemTypes.amethyst;
 
 import java.util.List;
 

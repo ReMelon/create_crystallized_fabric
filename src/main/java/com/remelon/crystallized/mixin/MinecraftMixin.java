@@ -1,4 +1,4 @@
-package remelon.cat.crystallized.mixin;
+package com.remelon.crystallized.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

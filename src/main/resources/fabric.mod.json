@@ -17,7 +17,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "remelon.cat.crystallized.Crystallized"
+      "com.remelon.crystallized.Crystallized"
     ]
   },
   "mixins": [

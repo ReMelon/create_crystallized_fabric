@@ -2,7 +2,7 @@
   "type": "create:splashing",
   "ingredients": [
     {
-      "item": "crystallized:strong_conductive_slide"
+      "item": "crystallized:strong_nether_slide"
     }
   ],
   "results": [

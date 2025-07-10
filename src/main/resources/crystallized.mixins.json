@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "remelon.cat.crystallized.mixin",
+  "package": "com.remelon.crystallized.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],

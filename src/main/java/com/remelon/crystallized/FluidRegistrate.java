@@ -1,5 +1,6 @@
-package remelon.cat.crystallized;
+package com.remelon.crystallized;
 
+import com.simibubi.create.AllCreativeModeTabs;
 import com.tterrag.registrate.fabric.SimpleFlowableFluid;
 import com.tterrag.registrate.util.entry.FluidEntry;
 
@@ -11,11 +12,14 @@ import net.fabricmc.fabric.api.transfer.v1.fluid.base.EmptyItemFluidStorage;
 import net.fabricmc.fabric.api.transfer.v1.fluid.base.FullItemFluidStorage;
 import net.fabricmc.fabric.api.transfer.v1.item.ItemVariant;
 import net.minecraft.fluid.Fluid;
+import net.minecraft.item.Items;
+import net.minecraft.registry.Registries;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-import static remelon.cat.crystallized.Crystallized.CREGISTRATE;
+import static com.remelon.crystallized.Crystallized.CREGISTRATE;
+import static com.simibubi.create.Create.REGISTRATE;
 import static net.minecraft.item.Items.BUCKET;
 
 public class FluidRegistrate {
@@ -58,7 +62,7 @@ public class FluidRegistrate {
 
 
 	public static void register() {
-		Crystallized.LOGGER.info("FluidsLoaded");
+		Crystallized.LOGGER.info("FluidRegistrate Loaded");
 	}
 
 }

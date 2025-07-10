@@ -1,4 +1,4 @@
-package remelon.cat.crystallized.itemTypes.amethyst;
+package com.remelon.crystallized.itemTypes.amethyst;
 
 import java.util.List;
 
@@ -12,12 +12,11 @@ import net.minecraft.util.Formatting;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 
-public class Chipped extends Item {
+public class Damaged extends Item {
 
-	public Chipped(Settings settings) {
-		super(settings.maxDamage(99));
+	public Damaged(Settings settings) {
+		super(settings);
 	}
-
 
 	@Override
 	public boolean isItemBarVisible(ItemStack stack) {
@@ -26,16 +25,14 @@ public class Chipped extends Item {
 
 	@Override
 	public int getItemBarStep(ItemStack stack) {
-		return Math.round(13.0F * MathHelper.clamp(((float) 1.75) / ((float) 3), 0, 1));
+		return Math.round(13.0F * MathHelper.clamp(1 / ((float) 3), 0, 1));
 	}
+
 
 	@Override
 	public void appendTooltip(ItemStack pStack, @Nullable World pLevel, List<Text> pTooltipComponents, TooltipContext pIsAdvanced) {
 		super.appendTooltip(pStack, pLevel, pTooltipComponents, pIsAdvanced);
 		pTooltipComponents.add(Text.translatable("item.crystallized.amethyst.tooltip").formatted(Formatting.GRAY));
-		pTooltipComponents.add(Text.translatable("item.crystallized.chipped.tooltip").formatted(Formatting.DARK_GRAY));
+		pTooltipComponents.add(Text.translatable("item.crystallized.damaged.tooltip").formatted(Formatting.DARK_GRAY));
 	}
-
-
-
 }
