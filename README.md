@@ -11,7 +11,7 @@
   </a>
 </p>
 
-<p align="center">
+<p align="center"> 
   Create: Crystallized is an addon for Create that introduces crystal growing mechanics. Using slides, you can produce crystals and in turn, useful items.<br>
   <strong>It's recommended to use EMI/JEI!
 
